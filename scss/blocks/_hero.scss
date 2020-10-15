@@ -1,0 +1,33 @@
+.hero {
+  background-image: url("../../img/bg-pattern-home-1.svg"),
+                      url("../../img/bg-pattern-home-2.svg");
+  background-position: calc(50% + -760px) top,
+                           calc(50% + 450px) bottom;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.hero__container {
+  display: flex;
+  margin-bottom: 255px;
+}
+.hero__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  line-height: 100px;
+  width: 555px;
+  color: $white;
+}
+.red-heading {
+  color: #F67E7E;
+}
+.hero__text {
+  display: flex;
+  margin-left: auto;
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 28px;
+  width: 445px;
+  color: $white;
+}

@@ -1,0 +1,117 @@
+.stores__section {
+  max-height: 745px;
+  background-color: $deep-jungle-green;
+}
+.stores__section {
+  background-image: url("../../img/bg-pattern-home-4-about-3.svg"),
+                      url("../../img/bg-pattern-home-5.svg");
+  background-position: calc(50% + -760px) top,
+                           calc(50% + 660px) bottom;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.od {
+  position: absolute;
+  opacity: 0.5;
+  margin-top: -30px;
+  transform: translateX(140px);
+
+}
+.stores__container {
+  padding-top: 140px;
+}
+.stores__heading {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 92px;
+  font-size: 48px;
+  width: 932px;
+  line-height: 48px;
+  text-align: center;
+  color: $white;
+}
+.green__heading {
+  color: $rapture-blue;
+}
+.stores__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.stores__item {
+  margin-right: 30px;
+}
+.quote {
+  margin: 0;
+  padding: 0;
+}
+.stores__item-text {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  width: 350px;
+  color: $white;
+}
+.stores__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: $rapture-blue;
+}
+.stores__job {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: $white;
+  margin-top: 8px;
+}
+.stores__img::after {
+  display: inline-block;
+  content: "";
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  background-image: url("../../img/Oval.svg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 140px;
+  margin-bottom: 140px;
+}
+.stores__img2::after {
+  display: inline-block;
+  content: "";
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  background-image: url("../../img/Oval\ Copy2.svg");
+  background-position: center center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 140px;
+  margin-bottom: 140px;
+}
+.stores__img3::after {
+  display: inline-block;
+  content: "";
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  background-image: url("../../img/Oval\ Copy3.svg");
+  background-position: center center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 140px;
+  margin-bottom: 140px;
+}
+

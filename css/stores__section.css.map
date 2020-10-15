@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;CACf;;AACD,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,CAAC;CACT",
+    "sources": [
+        "../scss/blocks/stores__section.scss"
+    ],
+    "names": [],
+    "file": "stores__section.css"
+}

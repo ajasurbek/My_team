@@ -1,0 +1,109 @@
+.directors__section {
+  background-color: $deep-jungle-green;
+}
+.directors__section {
+  background-image: url("../../img/about23.svg"),
+                      url("../../img/about24.svg");
+  background-position: calc(50% + -690px) top,
+                           calc(50% + 660px) bottom;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+.directors__container {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.directors__heading {
+  margin: 0;
+  margin-bottom: 64px;
+  padding: 0;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: $white;
+}
+.directors__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.directors__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 76px;
+  align-items: center;
+  background-color: $sacramento-state-green;
+  width: 350px;
+  height: 253px;
+}
+.directors__item:last-child,
+.directors__item:nth-child(3) {
+  margin-right: 0;
+}
+.directors__item:first-child,
+.directors__item:nth-child(4) {
+  margin-left: 0;
+}
+.directors__item::after {
+  display: inline-block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-image: url("../../img/plus.svg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(50%);
+}
+.minuss::after {
+  display: inline-block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-image: url("../../img/minuss.svg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(70%);
+}
+
+.directors__name {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: $rapture-blue;
+}
+.about-img {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.directors__job {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: $white;
+}
+.names {
+  margin-top: 35px;
+  margin-bottom: 8px;
+  color: $rapture-blue;
+  font-size: 18px;
+  line-height: 28px;
+}
+.box-text {
+  margin: 0;
+  padding: 0;
+  width: 254px;
+  color: $white;
+  text-align: center;
+}
+.directors__network {
+  margin-top: 24px;
+}

@@ -1,0 +1,32 @@
+.question__section {
+  background-color: $light-coral;
+}
+.question__section {
+  background-image: url("../../img/bg-pattern-home-6-about-5.svg");
+  background-position: right calc(50% - -700px) bottom;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.question__container {
+    display: flex;
+    align-items: center;
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+.question__heading {
+  margin: 0;
+  padding: 0;
+  color: $sacramento-state-green;
+  font-size: 48px;
+  line-height: 48px;
+}
+.question__button {
+  margin-left: auto;
+  color: $sacramento-state-green;
+  background-color: $light-coral;
+  border: 2px solid $sacramento-state-green;
+  &:hover {
+   color: $white;
+   background-color: $sacramento-state-green;
+ }
+}

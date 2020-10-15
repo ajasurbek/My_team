@@ -1,0 +1,34 @@
+.clients {
+  background-color: $sacramento-state-green;
+}
+.clients {
+  background-image: url("../../img/about25.svg");
+  background-position: right calc(50%  -760px) top;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.clients__heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 140px;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 48px;
+  color: $white;
+  text-align: center;
+}
+.clients__images {
+  display: flex;
+  height: 28px;
+  margin-bottom: 140px;
+}
+.clinets-image {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.clinets-image:last-child{
+  margin-right: 0;
+}
+.clinets-image:first-child{
+  margin-left: 0;
+}

@@ -1,0 +1,16 @@
+.about__text {
+  display: flex;
+  margin-left: auto;
+  margin-top: 44px;
+  // margin-top: 120px;
+  font-size: 18px;
+  line-height: 28px;
+  width: 730px;
+  color: $white;
+}
+.hero__about {
+  background-image: url("../../img/about21.svg");
+  background-position: right calc(50% - 660px) bottom;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
